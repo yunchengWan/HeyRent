@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/colorPrimaryBlue</color>
+    <color name="colorPrimaryDark">@color/colorPrimaryBlue30</color>
+    <color name="colorAccent">@color/colorPrimaryBlue</color>
+
+    <color name="colorPrimaryBlue">#4173EE</color>
+    <color name="colorPrimaryBlue30">#4D4173EE</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhite30">#4DFFFFFF</color>
+
+    <color name="colorEditHint">#90A4AE</color>
+    <color name="colorEditText">#263238</color>
+
+    <color name="colorEditBg">#C5C4C5</color>
+
+    <color name="colorTextBlue">#4173EE</color>
+    <color name="colorTextGray">#90A4AE</color>
+
+    <color name="colorText333">#333333</color>
+
+    <!--splash activity-->
+    <color name="splashBackground">#4173EE</color>
+
+    <!--Me-->
+    <color name="colorMeItemText">#37474F</color>
+</resources>

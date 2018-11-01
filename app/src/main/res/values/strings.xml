@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">HeyRent</string>
+
+    <string name="splash_name">Heyrent</string>
+    <string name="splash_version">v1.0</string>
+
+    <string name="log_in_uppercase">LOG IN</string>
+    <string name="sign_up_uppercase">SIGN UP</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="forget_password">Forget your password?</string>
+    <string name="login">LOGIN</string>
+    <string name="third_login_tip">Or login with</string>
+    <string name="signup">SIGNUP</string>
+    <string name="login_success">login success</string>
+
+    <!--SignUp-->
+    <string name="signup_first_name">First Name</string>
+    <string name="signup_last_name">Last Name</string>
+
+    <!--Main-->
+    <string name="main_bottom_item_discovery">Discovery</string>
+    <string name="main_bottom_item_collection">Collection</string>
+    <string name="main_bottom_item_workbench">Workbench</string>
+    <string name="main_bottom_item_messages">Messages</string>
+    <string name="main_bottom_item_me">Me</string>
+
+    <!--Me-->
+    <string name="me_title">Me</string>
+    <string name="me_my_profile">My Profile</string>
+    <string name="me_my_credit">My Credit</string>
+    <string name="me_invite_friend">Invite Friends</string>
+    <string name="me_help">Help</string>
+    <string name="me_personal_info">Personal Information</string>
+
+    <!--personal info-->
+    <string name="personal_info_title">Personal Information </string>
+    <string name="personal_info_avatar">Avatar</string>
+    <string name="personal_info_first_name">First Name</string>
+    <string name="personal_info_last_name">Last Name</string>
+    <string name="personal_info_phone">Phone</string>
+    <string name="personal_info_modify_success">Modify Success</string>
+    <string name="choose_phone_permission_tip">choose phone must open the storage permission</string>
+</resources>

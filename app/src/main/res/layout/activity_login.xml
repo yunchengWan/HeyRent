@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cl_login_root">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_login_logo"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="@color/colorPrimaryBlue">
+
+        <TextView
+            android:id="@+id/tv_login_heyrent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/splash_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_splash_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="13dp"
+            android:src="@drawable/splash_icon"
+            app:layout_constraintBottom_toTopOf="@id/tv_login_heyrent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="ContentDescription" />
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_table"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@color/colorPrimaryBlue"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/cl_login_logo">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="13dp"
+            android:text="@string/log_in_uppercase"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="13dp"
+            android:text="@string/sign_up_uppercase"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+    <com.heyrent.app.renter.widget.SlideViewPager
+        android:id="@+id/vp_login"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_login_table" />
+
+
+</android.support.constraint.ConstraintLayout>
